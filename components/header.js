@@ -43,7 +43,7 @@ const search = (terms)=>{
   return (
 				 	<header>
 						 	<div id="search-logo"> 
-						 		<Link href="/">
+						 		<Link href={link}>
 									<span className="symbol">
 										<img src="https://raw.githubusercontent.com/jonkiky/edu/master/public/images/logo.png" alt="" />
 									</span>

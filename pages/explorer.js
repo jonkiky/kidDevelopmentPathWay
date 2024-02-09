@@ -21,6 +21,7 @@ export default function Index() {
   const [tags, setTags] = useState([]);
 	const [checkboxStatus, setCheckboxStatus] = useState(Array.from(22,() => false));
 	const [filterVisible, setFilterVisible] = useState(false);
+	const [likeVisible, setLikeVisible] = useState(false);
 
 
 	 useEffect(() => {
@@ -31,6 +32,9 @@ export default function Index() {
  const handleMobileClick = (tag) => {
   	if(tag == "filter"){
   		setFilterVisible(!filterVisible);
+  	}
+  	if(tag == "like"){
+  		setLikeVisible(!likeVisible);
   	}
   	if(tag == "about"){
   		router.push('/about');
@@ -277,6 +281,11 @@ export default function Index() {
 		       			 		 </button>
 		       			 	</div>
 		       			
+		       			 	<div className="filter-section-header">
+		       			 		<button onClick={()=>handleMobileClick("like")}> 
+		       			 		<FontAwesomeIcon icon={faHeartSolid} style={{ width: "20px" }} fade/>
+		       			 		</button>
+		       			 		</div>
 		       			 	<div className="filter-section-header">
 		       			 		<button onClick={()=>handleMobileClick("about")}> 
 		       			 		<FontAwesomeIcon icon={faCircleInfo} style={{ width: "20px" }} fade /> 
