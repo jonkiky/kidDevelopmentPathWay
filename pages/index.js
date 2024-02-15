@@ -4,7 +4,6 @@ import { InfinitySpin } from 'react-loader-spinner';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import Header from "../components/header";
 import Footer from "../components/footer";
-import Link from 'next/link';
 
 
 const TabsComponent = ()=> (
@@ -219,7 +218,7 @@ export default function HomePage() {
 			<div className="hero-image">
 				<img src="/images/home.png" alt="" />
         <div className="hero-text">
-          <h1>Frustrated with finding out that kids' potential </h1>
+          <h1>Learn How To Get Start</h1>
           <p>
             We here to provide the development path for all kinds of activites and help you to get start the program searching. 
           </p>
@@ -274,7 +273,7 @@ export default function HomePage() {
 				</div>
 			</div>
 				<div className="form">
-							<iframe src="https://aa1536f2.sibforms.com/serve/MUIFAI2sb0Kb9d0YhmvLgVgAMnoYpgGaxi-INEy60vrf0dsWroXhKRpjT2LSlwkIWoUp6oxWOvVnZ_UToiQ4HOumxG1K5Fla67aQHxFudF2HcYcSAibX0v0gY-UM1giDo6qWUeTWBVawaCFBsQmYFG-grb1_5XFomGRT2XXoUN1hY1nI_OEgAVMVcN-90TC9yXtvXTTERUUdr3YX" frameborder="0" scrolling="auto" allowfullscreen ></iframe>
+							<iframe width="540" height="305" src="https://aa1536f2.sibforms.com/serve/MUIFAH0EmejJflIThQUkChc0n1f73KDwUy1tzfuj6AQ1cq18Gjiqgb9SfwCdz-Jbrv7jBKXV62MecuE6HUrw-nf3Tg3WIxiDLsuJ5yPIYy9CFcWq6B0i4jeMfzKeSzMLlc3_f51hP20GdL4eLntO3oPsOqPa473Dyv8NPAM5D-SPf81Nmeh4Gq2BXNduzeJQOXywh0bRlqQgHeE9" frameborder="0" scrolling="auto" allowfullscreen ></iframe>
 				</div>
 				<div className="footer">
 					<Footer />

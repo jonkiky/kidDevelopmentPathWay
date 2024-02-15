@@ -13,6 +13,17 @@ const tags =[
 
 export const data = [
     {
+        "name": "Singing",
+        "desc": "",
+        "age":3,
+        "tags": [
+          "age-3","age-4", "age-5","age-6", "age-7", "age-8", "age-9", 
+          "s-spring","s-summer", "s-fall","s-winter",
+           "c-$",
+         "mi-musical"],
+        "cate":  "mi-musical"
+    },
+    {
         "name":"Surfing",
         "desc": "",
         "age":5,
@@ -326,5 +337,16 @@ export const data = [
            "c-$",
          "mi-bodily-kinesthetic", ],
         "cate":   "mi-bodily-kinesthetic",
+    },
+    {
+        "name":"eSports",
+        "desc": "",
+        "age":7,
+        "tags": [
+            "age-7", "age-8", "age-9",
+           "s-spring", "s-summer", "s-fall","s-winter", 
+           "c-$$", 
+        "mi-methematical"],
+        "cate": "mi-methematical"
     },
 ]
